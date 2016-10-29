@@ -1,0 +1,14 @@
+{
+    "name": "Like me later!",
+    "version": "0.1",
+    "manifest_version": 2,
+    "background": {
+      "scripts" : ["background.js"]
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Like me later!",
+        "default_icon": "icon.png"
+    },
+    "content_security_policy": "script-src 'self' https://connect.facebook.net; object-src 'self'"
+}
